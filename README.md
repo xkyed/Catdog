@@ -1,14 +1,12 @@
 # Catdog
-session_conf = tf.ConfigProto(
-      intra_op_parallelism_threads=1,
-      inter_op_parallelism_threads=1)
-sess = tf.Session(config=session_conf)
+Image classifier that classies dogs and cats. Inspired by: 
+https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
-K.set_session(sess)
+# Requirements
+- Python 3 
+- Tensorflow
+- Keras 
 
-Data 
-Training
-333 Files each 
+See Report for setup 
 
-Validation
-167 Files each
+Explaination of code commented in Parallel.ipynb
